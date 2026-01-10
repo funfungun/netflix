@@ -44,9 +44,4 @@ export class UpdateMovieDto {
   @IsNotEmpty()
   @IsOptional()
   genre?: string;
-
-  @IsPasswordValid({
-    message: 'Other message',
-  })
-  test: string;
 }
